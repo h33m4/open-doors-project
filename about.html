@@ -18,27 +18,58 @@
 </head>
 <body>
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
         <div class="container">
+            <a class="navbar-brand" href="#"><img id="nav-img" src="assets/Logo.png" alt="" /></a>
+            <a class="navbar-brand" href="index.html"><h2>The Open Doors Project</h2></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars ms-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="video-series.html">Video Series</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html#">Contact</a></li>
+                    <!--<li><ul class="nav-item">
+                            <a href="#" class="nav-link nav-tabs dropdown-menu">Item</a>
+                    </ul></li>-->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Projects</a>
+                        <div class="dropdown-menu">
+                            <a href="minimedia.html" class="dropdown-item">Mini-Media Series</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="advice.html" class="dropdown-item">Advice (College & Career)</a>
+                            <a href="stories.html"class="dropdown-item">Featured Stories</a>
+                        </div>
+                    </li>
+                    <!--Mini-Media Series
+                    #Advice/Counseling
+                    #Featured stories-->
+                    <li class="nav-item"><a class="nav-link" href="video-series.html">Interviews</a></li>
+                    <!--about us
+                    #get involved-->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                        <div class="dropdown-menu">
+                            <a href="about.html" class="dropdown-item">Our Team</a>
+                            <a href="involved.html" class="dropdown-item">Get Involved</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <div class="" id="barrier">
+        <header class="masthead2">
+        </header>
+    </div>
+
             <!-- About-->
             <section class="page-section" id="about">
                 <div class="container">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">About</h2>
+                    <!--<div class="text-center">-->
+                        <div>
+                        <h3 class="section-heading text-uppercase" id = "about-heading">How We Started</h3>
                         <p class="text-muted">   The Open Book Project was inspired by team members’ noticing a growing crisis of identity and direction among their peers, an issue that they observed leading to aimlessness, isolation, and depression—all of these experiences only exacerbated by the COVID-19 pandemic.  We feel that addressing this phenomena and seeking out the root of its cause could lead to targeted improvements in the support students are able to find within the education system.  
                         </p>
 
@@ -52,11 +83,12 @@
                     </div>
                 </div>
             </section>
+            
             <!-- Team-->
             <section class="page-section bg-light" id="team">
                 <div class="container">
                     <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                        <h3 class="section-heading text-uppercase">Our Amazing Team</h3>
                         <h3 class="section-subheading text-muted">Insert introduction if desired, perhaps describing who comprises the team (college students at x, y, z)</h3>
                     </div>
                     <div class="row">

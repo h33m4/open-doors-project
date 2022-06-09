@@ -20,86 +20,121 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="index.html#"><h2>The Open Doors Project</h2></a>
+                <a class="navbar-brand" href="#"><img id="nav-img" src="assets/Logo.png" alt="" /></a>
+                <a class="navbar-brand" href="index.html"><h2>The Open Doors Project</h2></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="video-series.html">Video Series</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html#">Contact</a></li>
+                        <!--<li><ul class="nav-item">
+                                <a href="#" class="nav-link nav-tabs dropdown-menu">Item</a>
+                        </ul></li>-->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Projects</a>
+                            <div class="dropdown-menu">
+                                <a href="minimedia.html" class="dropdown-item">Mini-Media Series</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="advice.html" class="dropdown-item">Advice (College & Career)</a>
+                                <a href="stories.html"class="dropdown-item">Featured Stories</a>
+                            </div>
+                        </li>
+                        <!--Mini-Media Series
+                        #Advice/Counseling
+                        #Featured stories-->
+                        <li class="nav-item"><a class="nav-link" href="video-series.html">Interviews</a></li>
+                        <!--about us
+                        #get involved-->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                            <div class="dropdown-menu">
+                                <a href="about.html" class="dropdown-item">Our Team</a>
+                                <a href="involved.html" class="dropdown-item">Get Involved</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
         <header class="masthead">
+            <!--<div class="" id="mission">
+                <div class="container">
+                    
+                </div>
+            </div>-->
+        </header>
+        <!--<header class="masthead">
             <div class="" id="mission">
                 <div class="container">
                     <div class="row">
-                        <div class="mission-heading col-sm-6">
-                            <h2 class="center">Our Mission</h4>
+                        <div class="mission-heading col-sm-4">
+                            <h3 class="center masthead-info">Our Mission</h3>
                         </div>
-                        <div class="mission-heading col-sm-6">
-                            <ol>
-                                <li><p>Provide a platform for young people to share their experiences with education and purpose.</p></li>
-                                <li><p>To facilitate productive conversations surrounding these topics.</p></li>
-                            </ol>    
+                        <div class="mission-heading col-sm-4">
+                                <p class="masthead-info-p">Foster open conversations about American Education, promote equity & empathy and guide individual success.</p>   
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- About-->
-        <section class="page-section" id="about">
+        </header>-->
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h2 class="section-heading text-uppercase">Our Projects</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link"  href="video-series.html">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Interview Series</div>
+                                <div class="portfolio-caption-subheading text-muted">insert caption</div>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                         </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; The Open Doors Project 2022</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-light btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-light btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Contact</a>
-                        <a class="link-dark text-decoration-none me-3" href="#!">Projects</a>
-                        <a class="link-dark text-decoration-none" href="#!">Tell Your Story</a>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link"
+                            href="about.html">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">About Us</div>
+                                <div class="portfolio-caption-subheading text-muted">insert caption</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" href="contact.html">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Contact</div>
+                                <div class="portfolio-caption-subheading text-muted">insert caption</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </footer>
         
         <!-- Bootstrap core JS-->
