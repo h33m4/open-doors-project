@@ -7273,6 +7273,7 @@ textarea.form-control-lg {
 .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
+  object-fit: cover;
 }
 
 .my-0 {
@@ -7785,6 +7786,15 @@ textarea.form-control-lg {
   color: #6c757d !important;
 }
 
+.bios {
+  font-size: 0.8rem !important;
+}
+
+.team-member-name {
+  font-size: 1.2rem !important;
+  margin-bottom: 1rem !important;
+}
+
 #banner-text {
   color: #030d2e !important;
 }
@@ -7868,6 +7878,10 @@ textarea.form-control-lg {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+#indexinfo {
+  background-color: rgba(109,129,202,0.5) !important;
 }
 
 #projs {
@@ -11354,8 +11368,21 @@ p {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, " ", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
+}
+
+#no-space {
+  margin-bottom: 1rem;
+  /*font-weight: 600;*/
+  /*font-family: "Lucida Handwriting";*/
+  text-align: left;
+}
+
+#about-para {
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -11378,8 +11405,8 @@ p {
 }
 
 .minis-btn {
-  background-color: rgba(217, 174, 110, 0.8);
-  border-color: rgba(217, 174, 110, 0.2);
+  background-color: rgba(109, 129, 202, 0.8);
+  border-color: rgba(109, 129, 202, 0.2);
   margin-left: 0.1rem;
   margin-right: 0.1rem;
 }
@@ -11533,6 +11560,7 @@ header.masthead .masthead-heading {
   width: 100%;
   height: 100%;
   background: rgba(255, 200, 0, 0.9);
+  background: rgb(251, 171, 157, 0.8);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11794,7 +11822,7 @@ header.masthead .masthead-heading {
 section#contact {
   background-color: #212529;
   /*background-image: url("../assets/img/map-image.png");*/
-  background-image: url("../assets/img/odp_background.jpg");/*INSERT BACKGROUND IMAGE HERE*/
+  background-image: url("../assets/img/contact-back.png");/*INSERT BACKGROUND IMAGE HERE*/
   background-repeat: no-repeat;
   background-position: center;
 }
